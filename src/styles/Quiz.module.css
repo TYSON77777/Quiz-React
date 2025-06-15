@@ -1,0 +1,38 @@
+.quiz {
+  text-align: center;
+}
+
+.options {
+  margin-top: 20px;
+}
+
+.optionButton {
+  padding: 10px 20px;
+  margin: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #f4f4f4;
+}
+
+.optionButton:hover {
+  background-color: #ddd;
+}
+
+.selected {
+  background-color: #4caf50;
+  color: white;
+}
+
+.footer {
+  margin-top: 20px;
+}
+
+.nextButton {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}

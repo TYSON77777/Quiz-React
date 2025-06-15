@@ -1,0 +1,19 @@
+.home {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.startButton {
+  background-color: #4caf50;
+  color: white;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.startButton:hover {
+  transform: scale(1.1);
+}

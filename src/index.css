@@ -1,0 +1,62 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+}
+
+button {
+  padding: 10px 20px;
+  margin: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.option-button {
+  display: block;
+  margin: 5px 0;
+}
+
+.selected {
+  background-color: #4caf50;
+  color: white;
+}
+
+.quiz, .results, .home {
+  text-align: center;
+}
+@media (max-width: 768px) {
+  .home, .quiz, .results {
+    margin: 20px;
+    padding: 15px;
+  }
+
+  h1, h2 {
+    font-size: 1.5rem;
+  }
+
+  .startButton, .nextButton, .restartButton {
+    font-size: 1rem;
+    padding: 10px 20px;
+  }
+
+  .optionButton {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  h1, h2 {
+    font-size: 1.2rem;
+  }
+
+  .startButton, .nextButton, .restartButton {
+    font-size: 0.9rem;
+    padding: 8px 15px;
+  }
+}
