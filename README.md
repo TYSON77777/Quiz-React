@@ -6,7 +6,7 @@
 
 ## 🌐 Live Demo
 
-🔗 **Hosted Link:** _Coming soon..._
+🔗 Hosted Link:https://quiz-react-sage-six.vercel.app/
 
 ---
 
